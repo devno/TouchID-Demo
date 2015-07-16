@@ -13,6 +13,7 @@
 		F06E1FF91B57B94E0073E4B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F06E1FF81B57B94E0073E4B3 /* Images.xcassets */; };
 		F06E1FFC1B57B94E0073E4B3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F06E1FFA1B57B94E0073E4B3 /* LaunchScreen.xib */; };
 		F06E20081B57B94E0073E4B3 /* TouchID_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06E20071B57B94E0073E4B3 /* TouchID_DemoTests.swift */; };
+		F06E20121B57BA770073E4B3 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F06E20111B57BA770073E4B3 /* LocalAuthentication.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		F06E20011B57B94E0073E4B3 /* TouchID-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TouchID-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F06E20061B57B94E0073E4B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F06E20071B57B94E0073E4B3 /* TouchID_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchID_DemoTests.swift; sourceTree = "<group>"; };
+		F06E20111B57BA770073E4B3 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F06E20121B57BA770073E4B3 /* LocalAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +62,7 @@
 		F06E1FE31B57B94E0073E4B3 = {
 			isa = PBXGroup;
 			children = (
+				F06E20111B57BA770073E4B3 /* LocalAuthentication.framework */,
 				F06E1FEE1B57B94E0073E4B3 /* TouchID-Demo */,
 				F06E20041B57B94E0073E4B3 /* TouchID-DemoTests */,
 				F06E1FED1B57B94E0073E4B3 /* Products */,
